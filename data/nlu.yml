@@ -1,0 +1,229 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - good
+    - fine
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: emotional_social_development
+  examples: |
+    - What to do to for emotional and social development of child?
+    - How to make child emotionally strong?
+    - What Factors effect Social development of child?
+  
+- intent: child_respond
+  examples: |
+    - When the child can start responding?
+    - When child starts recognizing their parents?
+
+- intent: child_cry
+  examples: |
+    - How to calm children when they cry?
+    - Why children cry?
+    - Which factors effecting physical development of child?
+    - why is my baby crying?
+    - Why does my child cries a lot during night?
+
+- intent: speech_language
+  examples: |
+    - when does a child speak?
+    - Can a child understand any language?
+    - What age should a child start talking clearly?
+
+- intent: hearing_seeing
+  examples: |
+    - Explain development stage of vision of child?
+    - Can a child hear?
+    - Can child recognize their parents?
+
+- intent: child_movement
+  examples: |
+    - When Do Kids Start to Get Curious About Their Bodies?
+    - Why do children explore their bodies?
+    - Do children explore their bodies?
+
+- intent: development_problems
+  examples: |
+    - What signs suggest developmental problems in child?
+    - What are some child development issues?
+    - Why can't few babies achieve developmental milestones?
+
+- intent: baby_sleep
+  examples: |
+    - Can My Baby Sleep Through The Night?
+    - Do babies sleep very deeply?
+    - Why do babies sleep so much?
+
+- intent: baby_massage
+  examples: |
+    - How should I massage my baby?
+    - Will regular massages help my baby's growth?
+    - How many times should a baby be massaged?
+    - What age should I start baby massage?
+    - Is it okay to rub baby's head?
+    - Where should I massage my baby?
+    - I’ve heard that massaging a baby is good for her, but I have no idea how to do it.
+
+
+- intent: baby_bath
+  examples: |
+    - What is the best way to bathe a newborn?
+    - What's the right water temperature for my baby's bath?
+    - Will giving my baby a bath after sunrise give her a cold?
+  
+- intent: baby_breastfeed
+  examples: |
+    - What are the benefits of breastfeeding?
+    - How Often Should I Feed My Baby?
+    - I Find It Hard To Breastfeed. Will It Get Easier?
+
+- intent: post_delivery_recovery
+  examples: |
+    - Will heating foods speed up my recovery after birth?
+    - Will drinking cold water slow my recovery?
+    - How can I recover after my baby is born?
+  
+- intent: post_delivery_diet
+  examples: |
+    - What is traditionally eaten during post-delivery confinement?
+    - What foods should I eat after my delivery?
+    - What are the recipes for traditional food for breastfeeding mums?
+
+- intent: baby_brain_dev
+  examples: |
+    - How can I help my baby's brain development?
+    - How can I increase my baby's IQ?
+    - How can I make my baby intelligent?
+
+- intent: child_play
+  examples: |
+    - What is play and why is it important?
+    - What is Tummy Time and why is it important?
+    - What are the different ways you can do Tummy Time with baby?
+
+- intent: breastfeeding_or_formula_qty
+  examples: |
+    - How much breast milk or formula to use?
+    - Do I feed the same amount of formula as breastmilk?
+    - How many ounces of formula is equivalent to breast milk?
+
+- intent: baby_smile
+  examples: |
+    - My son is 5 weeks old and I thought he would be smiling real smiles by now, but he doesn’t seem to be?
+    - What age do babies smile properly?
+    - Should baby smile back every time?
+    - When should I worry about my baby not smiling?
+    - Why do babies not smile right away?
+    - At what age do babies laugh out loud?
+
+- intent: child_swaddle
+  examples: |
+    - Is it okay to swaddle a baby all night?
+    - Can baby be in swaddle all day?
+    - Is it OK not to swaddle a newborn?
+    - How many hours should a newborn be swaddled?
+    - When should I stop using a swaddle?
+    - Can you swaddle a baby too tightly?
+    - Can you swaddle a 3 month old?
+
+- intent: child_crawl_walk
+  examples: |
+    - When should my baby be crawling / creeping?
+    - My baby is standing up holding onto furniture, is he about to walk?
+    - When should my baby be walking?
+    - How long after first step do babies walk?
+    
+- intent: 
+
+
+
+    
+

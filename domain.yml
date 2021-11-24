@@ -1,0 +1,117 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - emotional_social_development
+  - child_respond
+  - child_cry
+  - speech_language
+  - hearing_seeing
+  - child_movement
+  - development_problems
+  - baby_sleep
+  - baby_massage
+  - baby_bath
+  - baby_breastfeed
+  - post_delivery_recovery
+  - post_delivery_diet
+  - baby_brain_dev
+  - child_play
+  - breastfeeding_or_formula_qty
+  - baby_smile
+  - child_swaddle
+  - child_crawl_walk
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+  
+  utter_socio_emotional_dev:
+  - text: "Engagement with the child even if they are sleeping and show your baby your face and talk to them soothingly right from the start."
+
+  utter_child_res:
+  - text: "Newborn don't understand what is happening to them, they don't know who is feeding them, or who helps them when they cry. Generally they start smiling by five to seven weeks and Laugh out loud by three months."
+
+  utter_crying:
+  - text: " Children can cry for many reasons basically when they are hungry, tired, or want to sleep etc. They can't cry 'for attention' or to 'get at' their parents - a newborn is not capable of responding to you with any conscious purpose."
+
+  utter_speech_language:
+  - text: "For the newborn, crying is their only means of communication.By seven or eight weeks, they begin to discover their voice and make cooing noises and vowel sounds.The general guideline for babies states that the child should be using at least 3 to 4 words in a sentence, and this development happens between the age of 36 and 47 months."
+
+  utter_hearing_seeing:
+  - text: "Newborns can hear, and have been hearing noises from well before they were born. They have immature eye muscles and, while they can see (particularly at close range), they can't organize the visual images into meaningful shapes,light, primary colours, stripes, dots and patterns. Eyes move in unison, most of the time, by six weeks."
+
+  utter_child_movement:
+  - text: "From as early as infancy, kids are interested in learning about their own bodies. During the first eight weeks they have no control over their movements and all their physical activity is involuntary or reflex."
+
+  utter_development_problems:
+  - text: "All children are different and develop at different rates.However, if your baby is very different from other children, or if you are worried about their development or it seems to go backwards, seek the advice of a health professional."
+
+  utter_baby_sleep:
+  - text: "Babies don’t know that the norm is to sleep at night-time and be awake during the day. So they sleep in bursts of three or four hours usually. Within 10–20 minutes, the baby enters the deep sleep stage, when they are particularly difficult to wake up."
+
+  utter_baby_massage:
+  - text: "Baby massage has many benefits and is a wonderful way for you to feel close to your baby.Massage can be done for babies of all ages, your baby's legs are a good place to begin the massage followed by arms, chest, back and head."
+
+  utter_baby_bath:
+  - text: "Keeping your baby clean in the first few days is pretty basic. Sponge baths are enough to keep a newborn clean while your baby's umbilical cord stump is still hanging on, later you may use a bath tub or seat with moderate water temperature."
+
+  utter_baby_breastfeed:
+  - text: "Breast-milk is tailored to the needs of human infants which contains at least 100 ingredients that aren’t found in cow’s milk. Breastfed babies are required to feed every 2-3 hours or likely 7-8 times a day. Most moms feel uncomfortable breastfeeding their baby, Specialists say that this discomfort usually goes away after the first 2-3 weeks."
+
+  utter_post_delivery_recovery:
+  - text: "Good nutrition, a bit of gentle exercise as well as plenty of rest are essential. Heating foods are what you need after birth to help your body recover.Getting enough water is also vital, especially if you are breastfeeding."
+
+  utter_post_delivery_diet:
+  - text: "New mums are often given specific foods during their confinement of the first 40 days after childbirth. High-calorie foods like full cream milk, butter, ghee, dried fruits, sugar, Oats dalia,Pulses and lentils. They also contain ingredients that are believed to increase breastmilk supply."
+
+  utter_baby_brain_dev:
+  - text: "Your baby’s brain is built over time: It starts during pregnancy, and continues through to early adulthood. Talking, reading and singing to your baby are all fun and easy ways to help their brain grow also breastfeeding appears to slightly increase a child’s IQ, at least through age 15."
+
+  utter_child_play:
+  - text: "Play is a way for your child to familiarize themselves with the world while exploring and testing their own limits. Tummy Time play is the period during the day your baby spends awake and on their stomach. It is a crucial exercise for baby’s motor, visual, and sensory development."
+
+  utter_breastfeeding_or_formula_qty:
+  - text: "Remember—there are no absolutes when it comes to how much formula or breast milk to feed your little one at each meal. A very rough general rule of thumb is to take your baby’s weight and multiply it by 2.5—that’s the total number of ounces to feed your baby over the course of a 24-hour period."
+
+  utter_baby_smile:
+  - text: "Cheer up . . . and smile. Even some of the happiest babies don’t start true social smiling until 6 or 7 weeks of age. And once they start smiling, some are just naturally more smiley than others. Many babies laugh out loud for the first time when they're 3 or 4 months old."
+
+  utter_child_swaddle:
+  - text: "Research shows that infants who are swaddled before they’re put on their backs cry less— and sleep better. Wrapped into a tight little bundle, they’re also less likely to startle and be woken up by those normal, jerky movements. But don’t swaddle once your baby is active enough to kick off the swaddling blanket."
+
+  utter_child_crawl_walk:
+  - text: "The age babies begin to crawl varies considerably, and depends on the child and the environment, however generally babies will start to crawl anywhere from 6 – 10 months of age and should crawl and creep for approximately 3 – 4 months or more, not less! While they typically start walking around their first birthday (12-15 months is the expected time when walking happens)."
+
+
+
+
+
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true 

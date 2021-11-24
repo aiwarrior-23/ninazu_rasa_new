@@ -1,0 +1,172 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: are you a bot
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: botchallenge
+  - action: utter_iamabot
+
+- story: emotional developmnet
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: emotional_social_development
+  - action: utter_socio_emotional_dev
+
+- story: child response
+  steps:
+  - intent: greet
+  - action: utter_greet 
+  - intent: child_respond
+  - action: utter_child_res 
+
+- story: child cry
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: child_cry
+  - action: utter_crying
+
+- story: speech lang
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: speech_language
+  - action: utter_speech_language
+
+- story: hearing seeing
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: hearing_seeing
+  - action: utter_hearing_seeing
+
+- story: body movement
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: child_movement
+  - action: utter_child_movement
+
+- story: child dev prob
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: development_problems
+  - action: utter_development_problems
+
+- story: baby sleep
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: baby_sleep
+  - action: utter_baby_sleep
+
+- story: baby massage
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: baby_massage
+  - action: utter_baby_massage
+
+- story: baby bath
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: baby_bath
+  - action: utter_baby_bath
+
+- story: baby breastfeed
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: baby_breastfeed
+  - action: utter_baby_breastfeed
+
+- story: post delivery recovery
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: post_delivery_recovery
+  - action: utter_post_delivery_recovery
+
+- story: post delivery diet
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: post_delivery_diet
+  - action: utter_post_delivery_diet
+
+- story: child brain development
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: baby_brain_dev
+  - action: utter_baby_brain_dev
+
+- story: child play time
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: child_play
+  - action: utter_child_play
+
+- story: breastfeed or formula quantity
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: breastfeeding_or_formula_qty
+  - action: utter_breastfeeding_or_formula_qty
+
+- story: smile
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: baby_smile
+  - action: utter_baby_smile
+
+- story: swaddle
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: child_swaddle
+  - action: utter_child_swaddle
+
+- story: crawl and walk
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: child_crawl_walk
+  - action: utter_child_crawl_walk
+
+
