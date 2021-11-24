@@ -221,6 +221,14 @@ nlu:
     - When should my baby be walking?
     - How long after first step do babies walk?
 
+- intent: bottle_sterilize
+  examples: |
+   - Do I need to sterilize bottles and pacifiers after every single use?
+   - Do you need to sterilize baby bottles after each use?
+   - How often do you Sterilise baby bottles?
+   - Can I stop Sterilising bottles at 6 months?
+
+
 
 
     

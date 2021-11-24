@@ -169,4 +169,11 @@ stories:
   - intent: child_crawl_walk
   - action: utter_child_crawl_walk
 
+- story: baby bottle sterilize
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: bottle_sterilize
+  - action: utter_bottle_sterilize
+
 

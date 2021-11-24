@@ -105,6 +105,9 @@ responses:
   utter_child_crawl_walk:
   - text: "The age babies begin to crawl varies considerably, and depends on the child and the environment, however generally babies will start to crawl anywhere from 6 – 10 months of age and should crawl and creep for approximately 3 – 4 months or more, not less! While they typically start walking around their first birthday (12-15 months is the expected time when walking happens)."
 
+  utter_bottle_sterilize:
+  - text: "It's important to sterilise all your baby's feeding equipment, including bottles and teats, until they are at least 12 months old. This will protect your baby against infections, in particular diarrhoea and vomiting."
+
 
 
 
