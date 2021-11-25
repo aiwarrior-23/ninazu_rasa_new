@@ -27,6 +27,14 @@ intents:
   - baby_smile
   - child_swaddle
   - child_crawl_walk
+  - bottle_sterilize
+  - preparation_for_workig_mom
+  - return_work_postpreg
+  - workplace_feeding
+  - pumping_privacy
+  - pumping_schedule
+  - breastfeeding_qty
+  - formula_feeding_child
 
 responses:
   utter_greet:
@@ -107,6 +115,34 @@ responses:
 
   utter_bottle_sterilize:
   - text: "It's important to sterilise all your baby's feeding equipment, including bottles and teats, until they are at least 12 months old. This will protect your baby against infections, in particular diarrhoea and vomiting."
+
+  utter_preparation_for_workig_mom:
+  - text: "There’s plenty of prep work to be done before your nursing and pumping plan is ready to roll out.
+          Start off slow- if you’re going back to a full-time job, begin with a short week which will also be a little less overwhelming than starting out with 5 days ahead of you.
+          Bring on the bottle- if you haven’t already, get busy with the bottle even if you won’t be heading back to work for a while
+          Get pumping- begin pumping a few weeks before you’re due back at the office. That way, not only will you be a more confident pumper, but also you’ll have started collecting a stash of frozen milk by the time you start collecting paychecks."
+
+  utter_return_work_postpreg:
+  - text: "Work part-time. If you can swing a part time schedule, at least at first, you’ll be able to spend more time strengthening breastfeeding links.
+           Working 4 or 5 half days is more practical than 2 or 3 full ones for several reasons. With half days, you may not have to miss any feedings and certainly no more than one a day. 
+           You’ll have little trouble with leakage (your clothes will thank you), and probably won’t have to do any on the-job pumping (which means you’ll  actually get to drink coffee on your coffee break). 
+           Best of all, you’ll spend most of each day with your baby. Working nights is another option that interferes very little with breastfeeding, especially once baby is sleeping through the night, but it can seriously interfere with two other very important commodities: rest and romance."
+
+  utter_workplace_feeding:
+  - text: "Once you’re back on the job, finding the time and the place to pump can be a bit of a challenge, depending on your workplace. The logistics will be easier if you work in a large company that is required by law to accommodate working breastfeeding moms or at a smaller company that’s enlightened enough to do this voluntarily.
+           Wear clothes that are convenient for pumping, or even designed for breastfeeding moms. Be sure your work tops can be lifted or opened easily for pumping at work, and that they won’t be stretched out of shape or wrinkled by being pulled up or open. Whatever you wear, line your nursing bra with breast pads to protect your clothing, And carry an extra supply of pads in your bag to replace wet ones."
+
+  utter_pumping_privacy:
+  - text: "If you’re able to pump behind the closed door of your office, awesome. Privacy problem solved. If not, look for an unused office or conference room, or a clean corner in the bathroom lounge. Keep in mind that if you’re employed in a large company, the law’s on your side when it comes to providing an appropriate place for pumping."
+
+  utter_pumping_schedule:
+  - text: "Be consistent. Schedule permitting, try to pump at the same times every day as close as possible to the times you would be feeding your baby if you were home. That way your breasts will come to anticipate pumping (as they would anticipate nursing) and fill up with milk like clock work."
+
+  utter_breastfeeding_qty:
+  - text: "Expect to nurse your little suckler around 8 to 10 times in a 24-hour period, though some babies may be nursing more often, and that’s perfectly fine. Demand still rules the day—and night. Though you won’t be able to measure the amount going in (unless you’re pumping every meal), your baby will be drinking somewhere between 15 and 32 ounces of breast milk a day."
+
+  utter_formula_feeding_child:
+  - text: "For moms who can't breastfeed or who decide not to, infant formula is a healthy alternative. Formula provides babies with the nutrients they need to grow and thrive. Some mothers worry that if they don't breastfeed, they won't bond with their baby. ... The decision to breastfeed or formula feed your baby is a personal one. Your bottle-drinker will likely be taking in around 4 to 6 ounces at every meal. Around 6 a day for a total of 24 to 36 ounces of formula a day."
 
 
 

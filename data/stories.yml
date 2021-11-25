@@ -176,4 +176,51 @@ stories:
   - intent: bottle_sterilize
   - action: utter_bottle_sterilize
 
+- story: working mom prep
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: preparation_for_workig_mom
+  - action: utter_preparation_for_workig_mom
 
+- story: back to work 
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: return_work_postpreg
+  - action: utter_return_work_postpreg
+
+- story: feeding at workplace
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: workplacce_feeding
+  - action: utter_workplace_feeding
+
+- story: pumping privacy workplace
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: pumping_privacy
+  - action: utter_pumping_privacy
+
+- story: pumping schedule
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: pumping_schedule
+  - action: utter_pumping_schedule
+
+- story: breastfeeding quantity
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: breastfeeding_qty
+  - action: utter_breastfeeding_qty
+
+- story: formula for child 
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: formula_feeding_child
+  - action: utter_formula_feeding_child

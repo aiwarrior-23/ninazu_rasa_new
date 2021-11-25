@@ -228,6 +228,73 @@ nlu:
    - How often do you Sterilise baby bottles?
    - Can I stop Sterilising bottles at 6 months?
 
+- intent: preparation_for_workig_mom
+  examples: |
+    - Working mom’s responsibility towards baby?
+    - How to prepare for work and nourishing baby?
+    - What to do if moms planning to go work?
+    - How can I raise a baby if I work full time?
+    - What you can suggest for working moms?
+    - What Working mom should do?
+    - What to do if i am planning full time work?
+
+- intent: return_work_postpreg
+  examples: |
+    - How do you work while having a baby?
+    - How to start office life?
+    - How to manage working Time?
+    - How do you go back to work with a newborn?
+    -  How can I work from home after having a baby?
+    - How long after birth can you start work?
+    - Should I go back to work after having a baby?
+    - How do I manage my baby while at work?
+
+- intent: workplace_feeding
+  examples: |
+    - What are some ways to support feeding?
+    - How to scope out workplace for Feeding?
+    - What challenge come when you start working?
+    - How to dress up for convenient pumping?
+    - What to wear for easy pumping?
+    - How to Dress up for pumping success?
+
+- intent: pumping_privacy
+  examples: |
+    - What to Look for privacy while pumping?
+    - Places where I can start pumping?
+    - How to choose place for pumping?
+
+- intent: pumping_schedule
+  examples: |
+    - What is a good pumping schedule?
+    - What is a reasonable amount of time to pump breast milk?
+    - Do I need to pump at the same time everyday?
+    - How many times a day should you pump if exclusively pumping?
+
+- intent: breastfeeding_qty
+  examples: |
+    - How much breast milk required for baby?
+    - How many times can I nurse my baby?
+    - How much breast milk does a baby need?
+    - Can you breastfeed a baby too often?
+    - What is a normal feeding schedule for a 3-month-old?
+    - How much milk does a 3-month-old drink?
+
+- intent: formula_feeding_child
+  examples: |
+    - What about Formula taking Baby?
+    - How much formula should 3-month-old baby have?
+    - Can I start giving my baby formula at 3 months?
+    - Is it OK to feed baby with formula?
+    - How do I introduce my baby to formula?
+
+
+
+
+
+
+
+
 
 
 
