@@ -35,6 +35,19 @@ intents:
   - pumping_schedule
   - breastfeeding_qty
   - formula_feeding_child
+  - SIDSS_intro
+  - SIDS_prevention
+  - Breathing_emergency
+  - bassinet_crib_trainsition
+  - Diaper_rash
+  - Penis_Sore 
+  - Jogging_ with_ Baby
+  - smoking_effects
+  - water_intro_baby
+  - food_allergy
+  - teething
+  - brushing_baby_teeth
+  - baby_walkers
 
 responses:
   utter_greet:
@@ -72,7 +85,7 @@ responses:
   - text: "Newborns can hear, and have been hearing noises from well before they were born. They have immature eye muscles and, while they can see (particularly at close range), they can't organize the visual images into meaningful shapes,light, primary colours, stripes, dots and patterns. Eyes move in unison, most of the time, by six weeks."
 
   utter_child_movement:
-  - text: "From as early as infancy, kids are interested in learning about their own bodies. During the first eight weeks they have no control over their movements and all their physical activity is involuntary or reflex."
+  - text: "As a new parent, it's easy to get worried when you see your newborn's odd shaky movements, from quivering chins to trembling hands and jitters to jerky arm and leg gestures. From as early as infancy, kids are interested in learning about their own bodies. Mostly, these extra movements are completely normal and harmless and in most cases, your baby will outgrow them. These early reflexes gradually disappear as babies mature, usually by the time they are 3–6 months old."
 
   utter_development_problems:
   - text: "All children are different and develop at different rates.However, if your baby is very different from other children, or if you are worried about their development or it seems to go backwards, seek the advice of a health professional."
@@ -144,6 +157,64 @@ responses:
   utter_formula_feeding_child:
   - text: "For moms who can't breastfeed or who decide not to, infant formula is a healthy alternative. Formula provides babies with the nutrients they need to grow and thrive. Some mothers worry that if they don't breastfeed, they won't bond with their baby. ... The decision to breastfeed or formula feed your baby is a personal one. Your bottle-drinker will likely be taking in around 4 to 6 ounces at every meal. Around 6 a day for a total of 24 to 36 ounces of formula a day."
 
+  utter_SIDSS_intro:
+  - text: "SIDS most often occurs in babies between 1 and 4 months, with the vast majority of deaths occurring before 6 months.
+          SIDS babies appear healthy and actually have some underlying defect or defects that Predisposes them to sudden death. 
+          One hypothesis is that the control in the brain that is usually alerted when breathing conditions are dangerous is underdeveloped in these babies.
+          SIDS may be caused by a defect in the heart or a faulty gene involved in managing breathing and heart rate."
+
+  utter_SIDS_prevention:
+  - text: "SIDS can be stopped by taking few precautions
+          - use a firm mattress and tightly fitting bottom sheet for baby’s crib and nothing else. - No loose bedding, pillows, blankets, bumpers, fluffy quilts, sheepskins, or soft toys. - Don’t use devices designed to maintain sleep position (such as wedges) or to reduce the risk of rebreathing air, many have not been sufficiently tested for their safety, and none has been shown to be effective at reducing the risk of SIDS.
+          - Put baby to sleep on his or her back every single time. 
+          - Never allow your baby to get overheated. 
+          - Continue to breastfeed your baby. 
+          - Be sure your baby is up-to-date with all vaccines.
+          - Consider sharing a room with your baby. 
+          - Offer a pacifier at sleep times, even if baby doesn’t use it during the day."
+
+  utter_Breathing_emergency:
+  - text: "Breathing lapses are very common in premature babies—in fact, about 50 percent of those born before 32 weeks gestation experience them.
+        Try to make note on some signals of Breathing lapses-
+        1- Did the breathing lapse occur when baby was asleep or awake?
+        2- Was baby sleeping, feeding, crying, spitting, gagging, or coughing when the event occurred?
+        3-Did baby experience any color changes, turning pale, blue, or red in the face?
+        4-Did baby need resuscitation? How did you revive him or her, and how long did it take?
+        5-Were there any changes in baby’s crying (higher pitch, for example) before the breathing lapse?
+        6-Did baby seem limp or stiff, or was he or she moving normally?
+        7-Does your baby often have noisy breathing? Does he or she snore?"
+
+  utter_bassinet_crib_trainsition:
+  - text: "There’s no hard-and-fast rule about the bassinet-to-crib transition, and in fact, as long as your baby is sleeping well in the bassinet, there’s no reason to make a switch. Unless he or she has outgrown the bassinet, that is. Check the weight limitations on the bassinet.
+        Some are as low as 10 pounds, though most can accommodate a 20-pound infant. Move your baby to a crib when he or she is 15 pounds. Generally 3 to 4 months old or about the time they are able to move around a lot. The fact that bassinets are shallow makes them even more dangerous once baby is able to sit up."
+
+  utter_Diaper_rash:
+  - text: "Diaper rash is typically triggered by a combination of moisture (too much), air (too little), friction (rubbing against those soft folds of skin), and irritants You can expect diaper rash to remain a potential problem as long as your little one is in diapers, but don’t be surprised if things get worse before they get better.You may also notice the rash is worse where urine concentrates in the diaper, toward the bottom with girls and the front with boys.
+        Change your little one’s diaper often,  give her bottom some bare air time. Make sure all the products that touch your baby’s tush are gentle and unscented . When baby’s really rashy, try to skip the wipes and instead dab her bottom clean with warm water and cotton balls, or even a soft washcloth. Spreading a thick, protective layer of ointment or cream  on baby’s bottom after cleaning it at changing time will prevent urine from reaching it and irritating the rash further."
+
+  utter_Penis_Sore:
+  - text: "That red area on your little one’s penis is probably nothing more than a localized diaper rash—and it’s pretty common. Left untreated such a rash can occasionally cause swelling, and in rare instances,that swelling can make it difficult for a baby to pee."
+
+  utter_Jogging_ with_ Baby:
+  - text: "Any type of activity that bounces a baby too vigorously (such as jogging with him or her in a front or back baby carrier or when an adult tosses a baby in the air) can result in serious injuries. When a baby is shaken roughly or energetically bounced up and down, the head whipping back and forth can cause the brain to rebound again and again against the skull. Bruising of the brain can cause swelling, bleeding, pressure, and possibly permanent neurological damage with mental or physical disability. Another possible injury is trauma to the delicate infant eye. If detachment or scarring of the retina or damage to the optic nerve occurs, lasting visual problems, even blindness, can result. Such injuries are rare, but the damage can be so severe that the risk is certainly not worth taking."
+
+  utter_smoking_effects:
+  - text: "Little ones who are exposed to smoking on a regular basis are more susceptible to SIDS, asthma, tonsillitis, respiratory infections, ear infections, and bacterial and viral infections severe enough to land them in the hospital. Children of smokers score lower on tests of reasoning ability and vocabulary and have an increased risk down the road of developing lung cancer. Children who see someone they love smoke are more likely to become smokers themselves, with all the serious risk for a shortened life span that the habit involves."
+
+  utter_water_intro_baby:
+  - text: "If you have an infant at home, you shouldn't ever give them plain water. Water can interfere with a baby's ability to receive proper nourishment or could even make them sick. Giving a baby younger than 6 months even a moderate amount of water in a short period of time can lead to hyponatremia,water intoxication which at its most dangerous can cause brain swelling and even death."
+
+  utter_food_allergy:
+  - text: "Food allergies can cause serious and even deadly reactions.A baby becomes allergic to a substance when his immune system becomes sensitized to it by producing antibodies.Symptoms usually start as soon as a few minutes after eating a food and as long as two hours after. In some cases, after the first symptoms go away, a second wave of symptoms comes back one to four hours later (or sometimes even longer). The most common food allergy signs and symptoms include: Tingling or itching in the mouth. Hives, itching or eczema. About 8 to 10 percent of children under 18 have food allergies—with the most common offenders being milk, eggs, nuts and peanuts, soy, and wheat."
+
+  utter_teething:
+  - text: "You may not be able to predict exactly when the teething fairy will fly in for a first visit (or future ones), but a number of signs can signal that she’s on her way. Also,there is no exact amount of time that has been identified for how long it takes for a tooth to cut through, but most professionals have estimated that it can emerge anytime between 1-7 days per tooth.For one baby, teething means lots of discomfort and big-time tears, while another baby might breeze to a mouth full of teeth without a complaint. The whole teething process is usually complete by the age of two to three."
+
+  utter_brushing_baby_teeth:
+  - text: "The short answer is that they do. As soon as your child has a tooth, plaque can begin building up on the surface of the tooth and causing decay. Dentists recommends that you start brushing your child's teeth as soon as the very first tooth comes in. Use a baby toothbrush with a tiny smear of fluoride toothpaste. Don't worry if you don't manage to brush much at first. The important thing is to get your baby used to brushing their teeth as part of their daily routine. As your baby's mouth fills up with teeth, it is important to keep up with a regular brushing routine of at least twice per day with fluoride toothpaste. Getting an early start with your baby’s oral care sets them up for a lifetime of healthy teeth and gums."
+
+  utter_baby_walkers:
+  - text: "Baby walkers don't help a baby develop their walking. In fact, walkers can impede or delay your baby achieving these important milestones. The more time babies spend in a walker, the more delay they experience. These systems involve a cloth seat, which places your child's hips in a position that may increase the risk of hip dysplasia/dislocation later in life. Additionally, your child may develop heel cord tightness resulting in “toe-walking” once they are standing outside the jumper/walker."
 
 
 

@@ -129,6 +129,9 @@ nlu:
     - When Do Kids Start to Get Curious About Their Bodies?
     - Why do children explore their bodies?
     - Do children explore their bodies?
+    - Is it normal for a 3 month old to have jerky movements?
+    - When do babies movements stop being jerky? 
+    - Is it normal for my baby to have jerky movements?
 
 - intent: development_problems
   examples: |
@@ -244,7 +247,7 @@ nlu:
     - How to start office life?
     - How to manage working Time?
     - How do you go back to work with a newborn?
-    -  How can I work from home after having a baby?
+    - How can I work from home after having a baby?
     - How long after birth can you start work?
     - Should I go back to work after having a baby?
     - How do I manage my baby while at work?
@@ -287,6 +290,109 @@ nlu:
     - Can I start giving my baby formula at 3 months?
     - Is it OK to feed baby with formula?
     - How do I introduce my baby to formula?
+
+- intent: SIDSS_intro 
+  examples: |
+    - What is the number one (1) cause of SIDS?
+    - At what age is SIDS no longer a concern?
+    - How SIDS babies can be identified?
+    
+- intent: SIDS_prevention 
+  examples: |
+    - Can SIDS be stopped once it starts?
+    - How to reduce risk of SIDS?
+    - How can SDI be prevented?
+    - What precautions should you take to reduce risk?
+
+- intent: Breathing_emergency 
+  examples: |
+    - What are the signals of breathing emergencies in infants?
+    - What are the three signals of breathing emergencies?
+    - What are some breathing emergencies?
+
+
+- intent: bassinet_crib_trainsition 
+  examples: |
+   - How long does it take to transition from bassinet to crib?
+   - How do I transition my baby from bassinet to crib?
+   - Is it hard to transition from bassinet to crib?
+   - When should a baby no longer be in a bassinet?
+
+
+- intent: Diaper_rash 
+  examples: |
+   - I change my baby’s diaper frequently, but she still gets diaper rash why?
+   - When should I be worried about my baby's diaper rash?
+   - How long should a diaper rash last?
+   - How can I help my baby's bad diaper rash?
+   - How do you treat a rash on a baby's private area?
+
+
+- intent: Penis_Sore
+  examples: |
+   - Why is my baby boy's private part swollen?
+   - Why is my baby's boy  private area red?
+   - Why is my baby's pee hole red?
+
+
+- intent: Jogging_ with_ Baby
+  examples: |
+   - Can you jog with a 3 month old?
+   - Can you put a 3 month old in a stroller?
+   - Can I jog with baby in car seat?
+   - Is shaking a baby is safer than hitting?
+   - What are immediate consequences of shaking a baby?
+
+- intent: smoking_effects
+  examples: |
+   - How is smoking harmful to babies and toddlers?
+   - What are the health effects of smoking during pregnancy?
+   - What kind of birth defects can you get from smoking?
+
+
+- intent: water_intro_baby
+  examples: |
+   - When should I introduce water to my baby?
+   - What happens if you give a baby under 6 months water?
+   - Is it OK to give newborn water?
+   - What happens if you give newborn water?
+
+
+- intent: food_allergy
+  examples: |
+    - How do I know if my baby has a food allergy?
+    - How long does it take for a baby to react to food allergy?
+    - How long does it take for a food allergy to show up?
+    - What are several common symptoms of food allergies?
+    - What to do if you think your baby has a food allergy?
+    - Can a food allergy happen hours later?
+    - What are the  common food allergies?
+
+
+- intent: teething
+  examples: |
+    - How can I tell if my baby’s teething? 
+    - What are the first signs of teething?
+    - How long do babies teeth before the tooth breaks through?
+
+- intent: brushing_baby_teeth
+  examples: |
+   - Do you brush babies teeth as soon as they come through?
+   - Should I brush my baby's teeth everyday?
+   - When should I start brushing my baby's teeth with toothpaste?
+   - When do you brush babies teeth?
+
+- intent: baby_walkers
+  examples: |
+    - Why walkers are not good for babies?
+    - Is baby walker bad for baby?
+    - What age should a baby be put in a walker?
+    - Why do pediatricians not recommend walkers?
+    - Do walkers help babies walk?
+    - Are baby walkers bad for hips?
+    - Does my baby need a walker?
+
+
 
 
 

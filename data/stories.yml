@@ -224,3 +224,100 @@ stories:
   - action: utter_greet
   - intent: formula_feeding_child
   - action: utter_formula_feeding_child
+
+
+- story: SIDD
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: SIDSS_intro
+  - action: utter_SIDSS_intro
+
+
+- story: Preventing SIDS
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: SIDS_prevention
+  - action: utter_SIDS_prevention 
+
+- story: Breathing Emergency
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Breathing_emergency
+  - action: utter_Breathing_emergency
+
+- story: Basinet to crib transition
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: bassinet_crib_trainsition
+  - action: utter_bassinet_crib_trainsition
+
+- story: Diaper rash
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Diaper_rash
+  - action: utter_Diaper_rash
+
+- story: Sore Penis
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Penis_Sore
+  - action: utter_Penis_Sore
+
+
+- story: Jogging with Baby
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Jogging_ with_ Baby
+  - action: utter_Jogging_ with_ Baby
+
+- story: Smoking Effects
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: smoking_effects
+  - action: utter_smoking_effects
+
+- story: Water intro to baby
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: water_intro_baby
+  - action: utter_water_intro_baby
+
+- story: Food Allergy
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: food_allergy
+  - action: utter_food_allergy
+
+- story: Baby teething
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: teething
+  - action: utter_teething
+
+- story: Brushing
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: brushing_baby_teeth
+  - action: utter_brushing_baby_teeth
+
+- story: Baby Walkers
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: baby_walkers
+  - action: utter_baby_walkers
+
+
+

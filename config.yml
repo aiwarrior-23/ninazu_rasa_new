@@ -39,4 +39,4 @@ policies:
     epochs: 300
     constrain_similarities: true
     model_confidence: cosine
-  - name: RulePolicy
+  - name: RulePolicy 
