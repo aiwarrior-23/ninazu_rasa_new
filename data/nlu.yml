@@ -392,6 +392,38 @@ nlu:
     - Are baby walkers bad for hips?
     - Does my baby need a walker?
 
+- intent: signing_with_baby 
+  examples: |
+    - Is baby signing good or bad?
+    - When should I start sign language with my baby?
+    - What are the benefits of signing with infants?
+
+
+- intent: left_right_handedness 
+  examples: |
+    - Can you tell if a baby will be left or right-handed?
+    - Should you force a left-handed child to be right-handed?
+    - Will my baby be left-handed if I am?
+    - Which is better right-handed or left-handed?
+    - Do babies use one hand more than the other?
+
+
+- intent: reading_to_baby
+  examples: |
+    - How early should you start reading to your baby?
+    - Can I read to my newborn?
+    - Does reading to your baby make them smarter?
+    - How does reading affect a child's development?
+    - I’d like my daughter to be a reader, like I am. Is it too early to start reading to her?
+
+- intent: flat_foot_baby
+  examples: |
+    - What should I do if my baby has flat feet?
+    - Why do my baby's feet look flat?
+    - Do babies grow out of flat feet?
+    - Can flat foot be corrected?
+
+
 
 
 

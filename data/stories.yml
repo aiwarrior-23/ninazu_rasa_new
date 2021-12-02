@@ -317,7 +317,36 @@ stories:
   - intent: greet
   - action: utter_greet
   - intent: baby_walkers
-  - action: utter_baby_walkers
+  - action: utter_baby_walkers 
+
+- story: Signing 
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: signing_with_baby 
+  - action: utter_signing_with_baby 
+
+- story: Left or Right Hand
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: left_right_handedness 
+  - action: utter_left_right_handedness 
+
+- story: Reading
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: reading_to_baby
+  - action: utter_reading_to_baby
+
+- story: Flat foot baby
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: flat_foot_baby
+  - action: utter_flat_foot_baby
+
 
 
 

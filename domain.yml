@@ -29,7 +29,7 @@ intents:
   - child_crawl_walk
   - bottle_sterilize
   - preparation_for_workig_mom
-  - return_work_postpreg
+  - return_work_postpreg 
   - workplace_feeding
   - pumping_privacy
   - pumping_schedule
@@ -48,6 +48,10 @@ intents:
   - teething
   - brushing_baby_teeth
   - baby_walkers
+  - signing_with_baby 
+  - left_right_handedness 
+  - reading_to_baby
+  - flat_foot_baby
 
 responses:
   utter_greet:
@@ -71,12 +75,15 @@ responses:
   
   utter_socio_emotional_dev:
   - text: "Engagement with the child even if they are sleeping and show your baby your face and talk to them soothingly right from the start."
+    image: "https://www.smartparents.sg/sites/default/files/2019-07/Babies-5%20ways%20to%20boost%20baby%E2%80%99s%20emotional%20development%20-%20MAIN.jpg"
 
   utter_child_res:
   - text: "Newborn don't understand what is happening to them, they don't know who is feeding them, or who helps them when they cry. Generally they start smiling by five to seven weeks and Laugh out loud by three months."
-
+    
   utter_crying:
   - text: " Children can cry for many reasons basically when they are hungry, tired, or want to sleep etc. They can't cry 'for attention' or to 'get at' their parents - a newborn is not capable of responding to you with any conscious purpose."
+    image: "http://cdn.shopify.com/s/files/1/0268/4282/4750/articles/Copy_of_Untitled-20.png?v=1592112584"
+
 
   utter_speech_language:
   - text: "For the newborn, crying is their only means of communication.By seven or eight weeks, they begin to discover their voice and make cooing noises and vowel sounds.The general guideline for babies states that the child should be using at least 3 to 4 words in a sentence, and this development happens between the age of 36 and 47 months."
@@ -86,45 +93,56 @@ responses:
 
   utter_child_movement:
   - text: "As a new parent, it's easy to get worried when you see your newborn's odd shaky movements, from quivering chins to trembling hands and jitters to jerky arm and leg gestures. From as early as infancy, kids are interested in learning about their own bodies. Mostly, these extra movements are completely normal and harmless and in most cases, your baby will outgrow them. These early reflexes gradually disappear as babies mature, usually by the time they are 3–6 months old."
-
+    image: "https://c.stocksy.com/a/IdB400/z9/998032.jpg"
+ 
   utter_development_problems:
   - text: "All children are different and develop at different rates.However, if your baby is very different from other children, or if you are worried about their development or it seems to go backwards, seek the advice of a health professional."
-
+    
   utter_baby_sleep:
   - text: "Babies don’t know that the norm is to sleep at night-time and be awake during the day. So they sleep in bursts of three or four hours usually. Within 10–20 minutes, the baby enters the deep sleep stage, when they are particularly difficult to wake up."
+    image: "https://as1.ftcdn.net/v2/jpg/00/62/87/32/1000_F_62873250_3E2fGq3MDzXbpeGapO7Pq32Y9etGd8gW.jpg"
 
   utter_baby_massage:
   - text: "Baby massage has many benefits and is a wonderful way for you to feel close to your baby.Massage can be done for babies of all ages, your baby's legs are a good place to begin the massage followed by arms, chest, back and head."
+    image: "http://blog.babybliss.com.ng/wp-content/uploads/2019/05/Baby-massage7.jpg"
 
   utter_baby_bath:
   - text: "Keeping your baby clean in the first few days is pretty basic. Sponge baths are enough to keep a newborn clean while your baby's umbilical cord stump is still hanging on, later you may use a bath tub or seat with moderate water temperature."
+    image: "https://www.picamon.com/wp-content/uploads/2015/05/Cute-baby-bath-8.jpg"
 
   utter_baby_breastfeed:
   - text: "Breast-milk is tailored to the needs of human infants which contains at least 100 ingredients that aren’t found in cow’s milk. Breastfed babies are required to feed every 2-3 hours or likely 7-8 times a day. Most moms feel uncomfortable breastfeeding their baby, Specialists say that this discomfort usually goes away after the first 2-3 weeks."
+    image: "https://post.healthline.com/wp-content/uploads/2019/11/Breastfeeding_732x549-thumbnail.jpg"
 
   utter_post_delivery_recovery:
   - text: "Good nutrition, a bit of gentle exercise as well as plenty of rest are essential. Heating foods are what you need after birth to help your body recover.Getting enough water is also vital, especially if you are breastfeeding."
+    image: "https://www.babycenter.in/ims/2017/01/offset_103966_4x3.jpg.pagespeed.ce.bpgsPf4tmr.jpg"
 
   utter_post_delivery_diet:
   - text: "New mums are often given specific foods during their confinement of the first 40 days after childbirth. High-calorie foods like full cream milk, butter, ghee, dried fruits, sugar, Oats dalia,Pulses and lentils. They also contain ingredients that are believed to increase breastmilk supply."
-
+    
   utter_baby_brain_dev:
   - text: "Your baby’s brain is built over time: It starts during pregnancy, and continues through to early adulthood. Talking, reading and singing to your baby are all fun and easy ways to help their brain grow also breastfeeding appears to slightly increase a child’s IQ, at least through age 15."
+    image: "https://www.todaysparent.com/wp-content/uploads/2015/12/8-games-to-play-with-baby.jpg"
 
   utter_child_play:
   - text: "Play is a way for your child to familiarize themselves with the world while exploring and testing their own limits. Tummy Time play is the period during the day your baby spends awake and on their stomach. It is a crucial exercise for baby’s motor, visual, and sensory development."
+    image: "https://media.istockphoto.com/photos/happy-baby-laying-on-belly-picture-id153377300"
 
   utter_breastfeeding_or_formula_qty:
   - text: "Remember—there are no absolutes when it comes to how much formula or breast milk to feed your little one at each meal. A very rough general rule of thumb is to take your baby’s weight and multiply it by 2.5—that’s the total number of ounces to feed your baby over the course of a 24-hour period."
 
   utter_baby_smile:
   - text: "Cheer up . . . and smile. Even some of the happiest babies don’t start true social smiling until 6 or 7 weeks of age. And once they start smiling, some are just naturally more smiley than others. Many babies laugh out loud for the first time when they're 3 or 4 months old."
+    image: "https://wallpaperaccess.com/full/5715144.jpg"
 
   utter_child_swaddle:
   - text: "Research shows that infants who are swaddled before they’re put on their backs cry less— and sleep better. Wrapped into a tight little bundle, they’re also less likely to startle and be woken up by those normal, jerky movements. But don’t swaddle once your baby is active enough to kick off the swaddling blanket."
+    image: "https://hanababy.co.uk/wp-content/uploads/2020/02/swaddle-blanket-slate.jpg"
 
   utter_child_crawl_walk:
   - text: "The age babies begin to crawl varies considerably, and depends on the child and the environment, however generally babies will start to crawl anywhere from 6 – 10 months of age and should crawl and creep for approximately 3 – 4 months or more, not less! While they typically start walking around their first birthday (12-15 months is the expected time when walking happens)."
+    image: "https://snazzybaby.com.au/wp-content/uploads/2014/09/baby-pix-17.jpg"
 
   utter_bottle_sterilize:
   - text: "It's important to sterilise all your baby's feeding equipment, including bottles and teats, until they are at least 12 months old. This will protect your baby against infections, in particular diarrhoea and vomiting."
@@ -187,6 +205,7 @@ responses:
   utter_bassinet_crib_trainsition:
   - text: "There’s no hard-and-fast rule about the bassinet-to-crib transition, and in fact, as long as your baby is sleeping well in the bassinet, there’s no reason to make a switch. Unless he or she has outgrown the bassinet, that is. Check the weight limitations on the bassinet.
         Some are as low as 10 pounds, though most can accommodate a 20-pound infant. Move your baby to a crib when he or she is 15 pounds. Generally 3 to 4 months old or about the time they are able to move around a lot. The fact that bassinets are shallow makes them even more dangerous once baby is able to sit up."
+    image: "https://i.pinimg.com/736x/7b/5b/15/7b5b1583b1c635a329969fd86ba384f1.jpg"
 
   utter_Diaper_rash:
   - text: "Diaper rash is typically triggered by a combination of moisture (too much), air (too little), friction (rubbing against those soft folds of skin), and irritants You can expect diaper rash to remain a potential problem as long as your little one is in diapers, but don’t be surprised if things get worse before they get better.You may also notice the rash is worse where urine concentrates in the diaper, toward the bottom with girls and the front with boys.
@@ -209,12 +228,30 @@ responses:
 
   utter_teething:
   - text: "You may not be able to predict exactly when the teething fairy will fly in for a first visit (or future ones), but a number of signs can signal that she’s on her way. Also,there is no exact amount of time that has been identified for how long it takes for a tooth to cut through, but most professionals have estimated that it can emerge anytime between 1-7 days per tooth.For one baby, teething means lots of discomfort and big-time tears, while another baby might breeze to a mouth full of teeth without a complaint. The whole teething process is usually complete by the age of two to three."
+    image: "https://media.istockphoto.com/photos/newborn-baby-teeth-of-0-year-old-picture-id1267071298?k=20&m=1267071298&s=612x612&w=0&h=9CV-5yAn0aIkhoHbd4Fzdc4yO387pxFYj7fWxQOdYw0="
 
   utter_brushing_baby_teeth:
   - text: "The short answer is that they do. As soon as your child has a tooth, plaque can begin building up on the surface of the tooth and causing decay. Dentists recommends that you start brushing your child's teeth as soon as the very first tooth comes in. Use a baby toothbrush with a tiny smear of fluoride toothpaste. Don't worry if you don't manage to brush much at first. The important thing is to get your baby used to brushing their teeth as part of their daily routine. As your baby's mouth fills up with teeth, it is important to keep up with a regular brushing routine of at least twice per day with fluoride toothpaste. Getting an early start with your baby’s oral care sets them up for a lifetime of healthy teeth and gums."
+    image: "https://images.ctfassets.net/6m9bd13t776q/4NHtsgrmfmSE0AW6AyCEa0/b9c87635b3cb94c2d1304e5ef24fdc3a/best-baby-toothbrush-2160x1200.jpg?q=75&w=660"
 
   utter_baby_walkers:
   - text: "Baby walkers don't help a baby develop their walking. In fact, walkers can impede or delay your baby achieving these important milestones. The more time babies spend in a walker, the more delay they experience. These systems involve a cloth seat, which places your child's hips in a position that may increase the risk of hip dysplasia/dislocation later in life. Additionally, your child may develop heel cord tightness resulting in “toe-walking” once they are standing outside the jumper/walker."
+
+  utter_signing_with_baby:
+  - text: "Your baby may be a born communicator, but that doesn’t mean you’ll always understand what he’s trying to  say, when communication (and comprehension) gaps between a little one and the parents who struggle to understand him can be pretty gaping. That’s where “baby signs” step in. For some babies signs can speed spoken language development, since it promotes interaction between parent and baby and there’s no better way to help him learn to speak than speaking to him. Interested parents begin using sign language when their baby is 6-8 months old but says not to worry if your child is older since there isn't a magical window that closes."
+    image: "https://images.ctfassets.net/iyiurthvosft/featured-img-of-post-179077/7bc2eea35f7b611759c0237331431a92/featured-img-of-post-179077.jpg?fm=jpg&fl=progressive&q=50&w=1200"
+  
+  utter_left_right_handedness :
+  - text: "It’s common for babies to appear ambidextrous, freely alternating between hands until they decide which is more  handy. In fact, babies usually don’t start playing hand favorites until about 18 months at the earliest. A lot has to do with genetics—when both parents are lefties, there’s more than a 50 percent chance their children will also be left-handed. When just one parent is left-handed, the chance of a child being left-handed drops to about 17 percent, and when neither parent is left-handed, it’s down to 2 percent. If your baby strongly favors one hand over the other before he turns 18 months, let the doctor know. In rare cases, such an early and consistent preference can signal a neurological problem."
+
+  utter_reading_to_baby:
+  - text: "It’s never too early to start raising a reader—even though your baby may be more wiggle worm than bookworm at first, or do more chewing on the corners of books than looking at their pages. But soon enough she’ll begin to pay attention to the words as you read them (first to the rhythm and sounds of the words, later to their meanings). Shared book reading with young children is good for language and cognitive development, reading stimulates part of a child's brain to grow and be more active. It can widen a child's vocabulary and comprehension ability. Through reading, children develop their empathy, build confidence, and expand their imagination."
+    image: "https://image1.masterfile.com/getImage/NjE0LTA5MjQ5NTM2ZW4uMDAwMDAwMDA=AInzFT/614-09249536en_Masterfile.jpg"
+
+  utter_flat_foot_baby:
+  - text: " It's actually totally normal for your baby's feet to look flat. That's because babies are born with a pad of fat in the arch area, and their foot and leg muscles aren't developed enough to support their arches when they first begin to stand. In fact, the arch doesn't usually develop until age 2 to 3. But if flat feet run in your family (the condition is usually due to a bone abnormality or a tight Achilles tendon) your child's arch might never full appear. Chances are that your baby’s flatfooted look will slowly diminish over the years, and by the time he’s finished growing, his feet will sport a well formed arch. Around 20 to 30 percent of fully grown feet will end up flat, but that’s not something that can be predicted now—or that would be considered a problem later."
+    image: "https://im.indiatimes.in/media/content/2013/Aug/1011638_1437737354.jpg"
+
 
 
 
