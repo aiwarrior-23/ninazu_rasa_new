@@ -194,7 +194,7 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: workplacce_feeding
+  - intent: workplace_feeding
   - action: utter_workplace_feeding
 
 - story: pumping privacy workplace
